@@ -745,3 +745,64 @@ nav {
     position: relative !important;
     z-index: 1 !important;
 }
+
+
+
+/* --- FIX FOR MOBILE --- */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  nav {
+    padding: 20px;
+  }
+  .nav-links {
+    gap: 12px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    padding: 40px 20px;
+    text-align: center;
+    gap: 30px;
+  }
+  .hero-text h1 {
+    font-size: 38px !important;
+    line-height: 1.2;
+  }
+  .hero-image img {
+    width: 280px !important;
+    height: 280px !important;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
+  .projects-container, .container, .skills, .my-story {
+    padding: 40px 20px !important;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .experience-content {
+    flex-direction: column;
+  }
+  .company-list {
+    flex-direction: row !important;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    border-left: none !important;
+    border-bottom: 1px solid #eee;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 20px;
+  }
+  .framer-footer .footer-header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .framer-footer .footer-main h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
