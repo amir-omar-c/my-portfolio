@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Omar - portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Amir Omar</div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <p class="greeting">Hi, I'm Amir 👋</p>
+            <h1><span class="blue-text">Front</span>end<br>Developer</h1>
+            <p class="description">I'm a frontend developer based in Egypt. I build websites that users will love.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Hire Me</a>
+                <a href="#" class="btn btn-secondary">My Projects</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="amir.jpg" alt="Amir Omar">
+        </div>
+    </section>
+    <section class="projects">
+        <div class="projects-container">
+            <h2>Projects<span class="dot">.</span></h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="taskflow1.jpg" alt="TaskFlow">
+                    </div>
+                    <h3>TaskFlow <span class="arrow">↗</span></h3>
+                    <p>Task management system with drag-and-drop, real-time collaboration, and responsive layout.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="taskflow2.jpg" alt="EcoCart">
+                    </div>
+                    <h3>EcoCart <span class="arrow">↗</span></h3>
+                    <p>E-commerce platform promoting eco-friendly products with payment integration.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="mov2.jpg" alt="EventPlanner">
+                    </div>
+                    <h3>EventPlanner <span class="arrow">↗</span></h3>
+                    <p>Event planning web application, enabling users to organise and manage events effortlessly.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="mov1.jpg" alt="FoodieFinder">
+                    </div>
+                    <h3>FoodieFinder <span class="arrow">↗</span></h3>
+                    <p>Modern-looking restaurant discovery platform featuring real-time search, reviews, and ratings.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience<span class="dot">.</span></h2>
+
+            <div class="experience-content">
+                <input type="radio" name="company" id="apple" checked>
+                <input type="radio" name="company" id="microsoft">
+                <input type="radio" name="company" id="spotify">
+                <input type="radio" name="company" id="stripe">
+                <input type="radio" name="company" id="webflow">
+
+                <div class="company-list">
+                    <label for="apple" class="company">Apple</label>
+                    <label for="microsoft" class="company">Microsoft</label>
+                    <label for="spotify" class="company">Spotify</label>
+                    <label for="stripe" class="company">Stripe</label>
+                    <label for="webflow" class="company">Webflow</label>
+                </div>
+
+                <div class="job-details">
+                    <!-- Apple -->
+                    <div class="job apple-job">
+                        <h3>Engineer <span class="at">@ Apple</span></h3>
+                        <p class="duration">May 2018 - Present</p>
+                        <ul class="responsibilities">
+                            <li>Developed and shipped highly interactive web applications for Apple Music using Ember.js
+                            </li>
+                            <li>Built and shipped the Apple Music Extension within Facebook Messenger leveraging
+                                third-party and internal APIs</li>
+                            <li>Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to
+                                add an Apple Music player to their web apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="job microsoft-job">
+                        <h3>Engineer <span class="at">@ Microsoft</span></h3>
+                        <p class="duration">Jan 2017 - Apr 2018</p>
+                        <ul class="responsibilities">
+                            <li>Worked on Azure cloud infrastructure and developer tools</li>
+                            <li>Improved performance of internal build systems by 30%</li>
+                            <li>Collaborated with cross-functional teams to ship features</li>
+                        </ul>
+                    </div>
+
+                    <div class="job spotify-job">
+                        <h3>Frontend Developer <span class="at">@ Spotify</span></h3>
+                        <p class="duration">Jun 2015 - Dec 2016</p>
+                        <ul class="responsibilities">
+                            <li>Built new features for Spotify Web Player using React</li>
+                            <li>Worked on playlist and search experience improvements</li>
+                            <li>Participated in A/B testing for user engagement</li>
+                        </ul>
+                    </div>
+
+                    <div class="job stripe-job">
+                        <h3>Software Engineer <span class="at">@ Stripe</span></h3>
+                        <p class="duration">Mar 2014 - May 2015</p>
+                        <ul class="responsibilities">
+                            <li>Developed dashboard features for Stripe merchants</li>
+                            <li>Worked on payment integration documentation</li>
+                            <li>Helped improve API response times</li>
+                        </ul>
+                    </div>
+
+                    <div class="job webflow-job">
+                        <h3>Web Developer <span class="at">@ Webflow</span></h3>
+                        <p class="duration">Aug 2013 - Feb 2014</p>
+                        <ul class="responsibilities">
+                            <li>Built custom templates and components for Webflow platform</li>
+                            <li>Worked on visual development tools</li>
+                            <li>Supported users in the community forum</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="company-work">
+            <h4>codelnn</h4>
+            <p>✓ Contributed to building responsive websites and landing pages using HTML5 & CSS3 for codelnn clients
+            </p>
+        </div>
+
+        <h2 class="skills-title">Skills<span>.</span></h2>
+
+        <div class="skills-grid">
+            <div class="skill-column">
+                <h3>Core Skills</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Responsive Design</li>
+                    <li>Flexbox & Grid</li>
+                </ul>
+            </div>
+
+            <div class="skill-column">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Currently Learning</li>
+                    <li>DOM Basics</li>
+                    <li>CSS Animations</li>
+                </ul>
+            </div>
+
+            <div class="skill-column">
+                <h3>Tools</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Git & GitHub</li>
+                    <li>Chrome DevTools</li>
+                    <li>Figma Basics</li>
+                </ul>
+            </div>
+
+            <div class="skill-column">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Fast Learner</li>
+                    <li>Teamwork</li>
+                    <li>Problem Solving</li>
+                    <li>Commitment</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="my-story">
+        <h2 class="story-title">My Story<span>.</span></h2>
+
+        <div class="story-content">
+            <p>
+                My journey into web development started with a simple curiosity about how websites are built.
+                I started taking programming courses in <span class="highlight">HTML & CSS</span> and immediately knew
+                this was what I wanted to do.
+            </p>
+
+            <p>
+                Currently, I'm expanding my skills by learning <span class="highlight">JavaScript</span> to become a
+                complete Front-end Developer.
+                I love the process of turning ideas and designs into real, interactive experiences on the web.
+            </p>
+
+            <p>
+                I'm now working at <span class="highlight">codelnn</span> in Jordan, where I get to apply what I'm
+                learning on real projects.
+                This opportunity is helping me understand how to write clean, responsive code and work in a professional
+                team environment.
+            </p>
+
+            <p>
+                My goal is to master <span class="highlight">Front-end Development</span> and build websites that are
+                not just functional, but also beautiful and user-friendly.
+                I'm committed to learning every day and excited for the challenges ahead! 💙
+            </p>
+        </div>
+    </section>
+    <section class="framer-footer">
+        <div class="footer-header">
+            <nav class="footer-nav">
+                <a href="#" class="nav-active">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/amir_omar_334?igsh=aGZmOTl3d2cxa2Fm" target="_blank"
+                    aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Dribbble"><i class="fa-solid fa-basketball"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-main">
+            <h2>Interested in working together?</h2>
+            <div class="footer-buttons">
+                <a href="#projects" class="btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn-secondary">Browse Projects</a>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>©2023 All Rights Reserved.</p>
+            <p>Made with <span style="color: #5B47FF;">💙</span> by <span class="made-in-framer">Made in Framer</span>
+            </p>
+        </div>
+    </section>
+
+</body>
+
+</html>
